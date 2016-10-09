@@ -1,0 +1,64 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html, body {
+    width: 100%;
+    height: 100%;
+}
+
+body {
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    color: #333;
+}
+
+.map {
+    width: 100%;
+    height: 100%;
+    
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+.instructions {
+    width: 100%;
+    padding: 10px;
+    
+    background: #333;
+    
+    text-align: center;
+    color: white;
+    
+    position: fixed;
+    bottom: -203px;
+    left: 0;
+    z-index: 100;
+    
+    transition: all 0.3s ease-out;
+}
+
+.instructions--show {
+    bottom: 0;
+}
+
+.instructions__title {
+    margin-bottom: 20px;
+}
+
+.instructions_text {
+    margin-bottom: 10px;
+}
+
+.instructions__code {
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 3px;
+    display: inline-block;
+    
+    background: #f3f3f3;
+    
+    color: #333;
+    text-align: left;
+}
