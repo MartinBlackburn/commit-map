@@ -12,6 +12,7 @@ App.Map = (function()
         mapTypeId: google.maps.MapTypeId.ROADMAP,
         center: {lat: 20, lng: -2.285156},
         disableDefaultUI: true,
+        backgroundColor: '#93d7f2',
         styles: [
             {
                 "featureType": "administrative",
