@@ -146,7 +146,7 @@ App.Map = (function()
         
         setTimeout(function(){
             infowindow.close();
-        }, 3000);
+        }, 5000);
     }
     
     
